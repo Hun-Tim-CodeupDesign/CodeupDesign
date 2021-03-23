@@ -49,3 +49,11 @@
 @media screen and (min-width:1200px) and (max-width:8000px) {
     /* ... */
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray);
+}
