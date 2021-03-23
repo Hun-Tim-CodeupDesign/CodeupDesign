@@ -7,10 +7,17 @@
     --gray: #E6E6E6;
 }
 
+
 /* screen sizes 576px and up
         Extra Small
 */
 @media screen and (min-width:576px) {
+
+    .img_logo {
+        display: flex;
+        justify-content: center;
+    }
+
 
 }
 
@@ -21,12 +28,16 @@
 */
 @media screen and (min-width:576px) and (max-width:768px) {
     /* ... */
+    .img_logo {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
 
 /* screen sizes 768px to 992px
-        Large
+        Medium
 */
 @media screen and (min-width:768px) and (max-width:992px) {
     /* ... */
@@ -35,7 +46,7 @@
 
 
 /* screen sizes 992 to 1200px
-        XL Large
+        Large
 */
 @media screen and (min-width:992px) and (max-width:1200px) {
     /* ... */
@@ -44,9 +55,17 @@
 
 
 /* screen sizes 1200px to 8000px
-        XXL Large
+        XL Large
 */
-@media screen and (min-width:1200px) and (max-width:8000px) {
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    /* ... */
+}
+
+
+/* screen sizes 1200px to 8000px
+        XL Large
+*/
+@media screen and (min-width:1400px) and (max-width:4000px) {
     /* ... */
 }
 
