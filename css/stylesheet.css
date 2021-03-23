@@ -1,5 +1,10 @@
 :root {
-    --first-color:
+    --red: #E6563B;
+    --orange: #DEA03D;
+    --green: #7CBO6C;
+    --blue: #00ABA9;
+    --lightgray: #F0F0F0;
+    --gray: #E6E6E6;
 }
 
 /* screen sizes 576px and up
