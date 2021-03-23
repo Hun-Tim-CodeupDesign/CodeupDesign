@@ -1,0 +1,46 @@
+:root {
+    --first-color:
+}
+
+/* screen sizes 576px and up
+        Extra Small
+*/
+@media screen and (min-width:576px) {
+
+}
+
+
+
+/* screen sizes 576px to 768px
+        Small
+*/
+@media screen and (min-width:576px) and (max-width:768px) {
+    /* ... */
+}
+
+
+
+/* screen sizes 768px to 992px
+        Large
+*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    /* ... */
+}
+
+
+
+/* screen sizes 992 to 1200px
+        XL Large
+*/
+@media screen and (min-width:992px) and (max-width:1200px) {
+    /* ... */
+}
+
+
+
+/* screen sizes 1200px to 8000px
+        XXL Large
+*/
+@media screen and (min-width:1200px) and (max-width:8000px) {
+    /* ... */
+}
