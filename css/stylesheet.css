@@ -195,22 +195,27 @@ h3 {
         justify-content: center;
     }
     .feat_text{
-        display: inline-flex;
+        font-size: smaller;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+
     }
 
     .footer_container {
-        height: 30px;
+        height: 12px;
         width: 100vw;
+        position: absolute;
         display: inline-flex;
         flex-wrap: nowrap;
         color: white;
-        justify-content: flex-end;
+        justify-items: flex-end;
         /*margin:1em;*/
     }
 
     .footer_reddot {
-        height: 3px;
-        width: 3px;
+        height: 1px;
+        width: 1px;
         background-color: var(--red);
         border-radius: 100%;
         margin: 1em;
@@ -306,6 +311,7 @@ h3 {
         justify-content: center;
 
     }
+
 }
 
 
