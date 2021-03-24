@@ -145,31 +145,30 @@ h3 {
         Extra Small
 */
 @media screen and (min-width:0px) and (max-width: 576px) {
-
-    .img_logo {
-        max-width: 20%;
-
-    }
-
     a {
         font-family: 'Nanum Gothic', sans-serif;
     }
 
-    .logo {
-        /*display: flex;*/
-        /*justify-content: center;*/
-        background-color: var(--green);
-        margin-top:5em;
-    }
-
-    .whitebackground {
-        display: flex;
-        height: 20%;
-        background-color: var(--green);
-        justify-content: center;
-        width: 100%;
+    .img_logo {
+        max-width: 24%;
 
     }
+
+    /*.logo {*/
+    /*    !*display: flex;*!*/
+    /*    !*justify-content: center;*!*/
+    /*    background-color: var(--green);*/
+    /*    margin-top:5em;*/
+    /*}*/
+
+    /*.whitebackground {*/
+    /*    display: flex;*/
+    /*    height: 20%;*/
+    /*    background-color: var(--green);*/
+    /*    justify-content: center;*/
+    /*    width: 100%;*/
+
+    /*}*/
 
     .selected_work {
         margin-top:25%;
