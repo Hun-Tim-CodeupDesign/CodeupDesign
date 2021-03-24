@@ -42,14 +42,14 @@ h3 {
 .text-center{
     background-color: var(--lightgray);
 }
-.container{
+.nav{
     margin-top: 2em;
     display: flex;
     justify-content: center;
     background-color: var(--lightgray);
 }
 
-.container1 {
+.Logo_Container {
     background-color: white;
     height: 60px;
     margin-top: 3em;
@@ -73,7 +73,7 @@ h3 {
     flex-wrap: wrap;
     color: white;
     justify-content: center;
-    /*margin:1em;*/
+    margin-top: 8%;
 }
 
 .reddot {
@@ -171,6 +171,103 @@ h3 {
 
     }
 
+    .selected_work {
+        margin-top:25%;
+
+    }
+
+    .selected_work h3{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .selected_work img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        border: .7em solid var(--gray);
+    }
+
+    .ipad_img {
+        margin-top:10%;
+        display: flex;
+        justify-content: center;
+    }
+    .feat_text{
+        display: inline-flex;
+    }
+
+    .footer_container {
+        height: 30px;
+        width: 100vw;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        color: white;
+        justify-content: flex-end;
+        /*margin:1em;*/
+    }
+
+    .footer_reddot {
+        height: 3px;
+        width: 3px;
+        background-color: var(--red);
+        border-radius: 100%;
+        margin: 1em;
+        font-weight: bold;
+        padding: 3em;
+        border: 5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .footer_orangedot {
+        height: 15px;
+        width: 15px;
+        background-color: var(--orange);
+        border-radius: 50%;
+        padding: 3em;
+        text-align: center;
+        margin: 1em;
+        font-weight: bold;
+        border: 5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_greendot {
+        height: 15px;
+        width: 15px;
+        background-color: var(--green);
+        border-radius: 50%;
+        margin: 1em;
+        font-weight: bold;
+        padding: 3em;
+        border: 5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .footer_bluedot {
+        height: 15px;
+        width: 15px;
+        background-color: var(--blue);
+        border-radius: 50%;
+        margin: 1em;
+        font-weight: bold;
+        padding: 3em;
+        border: 5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 }
 
@@ -181,9 +278,33 @@ h3 {
 */
 @media screen and (min-width:576px) and (max-width:768px) {
     /* ... */
+
     .img_logo {
-        position: absolute;
-        top: 16em;
+        max-width: 20%;
+
+    }
+
+    a {
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .logo {
+        /*display: flex;*/
+        /*justify-content: center;*/
+        background-color: var(--green);
+        margin-top:5em;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+    }
+
+    .nav a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
     }
 }
 
