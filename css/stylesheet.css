@@ -144,10 +144,11 @@ h3 {
 /* screen sizes 576px and up
         Extra Small
 */
-@media screen and (min-width:0px) and (max-width: 576px) {
+@media screen and (min-width:0px) and (max-width: 667px) {
 
     .img_logo {
         max-width: 20%;
+        display: flex;
 
     }
 
@@ -305,6 +306,18 @@ h3 {
         align-items: center;
         justify-content: center;
 
+    }
+
+    .dotcontainer {
+        display: inline-flex;
+    }
+
+    .footerinline {
+        display: inline-flex;
+    }
+
+    .feat_text {
+        font-size: 7px;
     }
 }
 
