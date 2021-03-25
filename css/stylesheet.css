@@ -117,6 +117,10 @@ a:link{
         display: none;
     }
 
+    .small_header {
+        display: none;
+    }
+
     .headertxt {
         display:none;
     }
@@ -301,9 +305,24 @@ a:link{
 
     /* ... */
 
-    .small_selected_row {
+    div.row {
+        position: relative;
+        display: flex;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+    .small_header {
         display: flex;
         justify-content: center;
+        font-weight: lighter;
+        font-size: smaller;
+        margin-top: 2em;
+    }
+
+    .small_selected_row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30%;
     }
 
     .xsmallselectedworks {
@@ -423,9 +442,9 @@ a:link{
         right:20px;
         justify-content: center;
         align-items: center;
-        max-width: 17%;
-        right: 254px;
-        top: 80px;
+        max-width: 20%;
+        right: 270px;
+        top: -3em;
     }
 
     .dotcontainer {
@@ -442,16 +461,35 @@ a:link{
     }
     .selected_work img{
         display: flex;
-        justify-content: center;
-        width: 100%;
+        justify-content: flex-start;
+        width: 45vw;
         height: auto;
         border: .7em solid var(--gray);
     }
     .ipad_img {
-        margin-top:10%;
-        display: flex;
-        justify-content: center;
+        position: absolute;
+        left: -2em;
+        margin-top: -10em;
     }
+
+    .macbook_img {
+        position: absolute;
+        top: -10em;
+        right: 16em;
+    }
+
+    .man_img {
+        position: absolute;
+        top: -18em;
+        left: -2em;
+    }
+
+    .security_img {
+        position: absolute;
+        top: -18em;
+        right: 16em;
+    }
+
 
     .feat_text{
         font-size: smaller;
@@ -466,7 +504,7 @@ a:link{
         height: 12px;
         width: 100vw;
         /*position: absolute;*/
-        display: inline-flex;
+        display: flex;
         /*flex-wrap: nowrap;*/
         color: white;
         justify-content: flex-end;
@@ -475,7 +513,8 @@ a:link{
     }
     .footer_align {
         display: flex;
-        align-items: baseline;
+        justify-content: space-between;
+        align-items: center;
     }
     .footer_reddot {
         height: 1px;
