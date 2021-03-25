@@ -335,7 +335,47 @@ a:link{
     }
 
     .footer_align{
-        display: inline-flex;
+        /*display: flex;*/
+        /*align-items: center;*/
+    }
+
+
+    .dot {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+
+    .container_1{
+        position:absolute;
+        left: -42px;
+        top: 73px;
+    }
+
+    .container_2{
+        /*position:absolute;*/
+        left: -42px;
+        top: 73px;
+    }
+
+    .flexrow2 {
+        top:10px;
+        left:10px;
+    }
+
+
+    .selimg {
+        position:relative;
+
+    }
+
+    .flexrow {
+        display:flex;
+        flex-direction:row;
+    }
+    .feat_footer_img {
+        display:flex;
+        margin-bottom:3em;
     }
 
     .small-selected-work{
@@ -492,14 +532,20 @@ a:link{
 
 
     .feat_text{
-        font-size: smaller;
-        position: relative;
-        display: inline-flex;
-        justify-content: flex-start;
+        display:flex;
+        flex-direction:row;
+        /*font-size: smaller;*/
+        /*position: relative;*/
+        /*display: inline-flex;*/
+        /*justify-content: flex-start;*/
     }
-    .footer_header {
-        display: flex;
-    }
+
+
+    /*.footer_header {*/
+    /*    display: flex;*/
+    /*}*/
+
+
     .footer_container {
         height: 12px;
         width: 100vw;
@@ -512,9 +558,9 @@ a:link{
         /*margin:1em;*/
     }
     .footer_align {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+        /*align-items: center;*/
     }
     .footer_reddot {
         height: 1px;
